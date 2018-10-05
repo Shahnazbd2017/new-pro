@@ -1,0 +1,392 @@
+/*
+Author: Shahnaz Pervin
+Author-info
+*/
+/* ========index========
+1. Global CSS
+2. Hero
+3. Features
+4. Features perspective
+5. Opinions
+6. Download App
+7. Footer */
+
+/*.1 Global css */
+@import url(font-family: 'Montserrat', sans-serif;);
+
+body{
+    background: url(../img/bg-pic.png);
+    background-size: cover;
+}
+section{
+	padding: 50px 0px;
+}
+.navbar-toggler:(.disabled) {
+    cursor: pointer;
+}
+button.navbar-expand-lg.ml-auto {
+    background-color: transparent;
+    border: none;
+}
+
+h1{
+    line-height: 28px;
+    font-size: 36px;
+	color: #626262;
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	 font-size: 25px;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #fff;
+}
+h5{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+h6{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height:25px;
+    color: #36475e;
+    text-align: justify;
+}
+.fa{
+	font-size: 30px;
+    color: #ff3334;
+}
+a{
+	color: #14396a;
+}
+a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+section{
+	padding: 50px 0px;
+}
+
+
+/*.2  Header Section */
+.header-content{
+	padding: 80px 0px;
+}
+
+.header-content span {
+    color: #1c447a;
+    font-size: 25px;
+    font-weight: medium;
+}
+.header-content h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: medium;
+    text-align: center;
+}
+.header-content h6 {
+    color: #1c447a;
+    font-weight: medium;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.btn-header{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	font-size: 12px;
+	line-height: 1.5;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out;
+	background: transparent;
+	border-radius: 50px;
+	border: 2px solid #1c447a;
+	padding: 4px 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.btn-header {
+    margin-left: 420px;
+}
+/*.3  features Section */
+.features{
+	background: url(../img/one-image.png) no-repeat;
+	background-size: 100%;
+}
+.two-image{
+    max-width: 70%;
+    height: auto;
+}
+.three-image{
+    max-width: 80%;
+    height: auto;
+}
+.four-image{
+    max-width: 70%;
+    height: auto;
+}
+/*.3  features 02 Section */
+
+.features02{
+	background: url(../img/Headphones.png) no-repeat;
+	background-size: 50%;
+	height: 500px;
+}
+.features02 span {
+    color: #1c447a;
+    font-size: 25px;
+    font-weight: medium;
+}
+.features02 h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: medium;
+    text-align: center;
+}
+.features02 p {
+    color: #36475e;
+    line-height: 25px;
+    width: 90%;
+    font-weight: medium;
+    text-align: right;
+    text-align: justify;
+    padding-left: 25px;
+}
+.btn-theme{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	font-size: 12px;
+	line-height: 1.5;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out;
+	background: transparent;
+	border-radius: 50px;
+	border: 2px solid #1c447a;
+	padding: 4px 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+
+/*.3  features 03 Section */
+
+.features03 span {
+    color: #1c447a;
+    font-size: 25px;
+    font-weight: medium;
+}
+.features03 h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: medium;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Middle-mb{
+    max-width: 100%;
+    height: auto;
+}
+.features03-icon .fa{
+	font-size: 40px
+	color: #ff3334;
+}
+.features03 h4{
+
+}
+
+/*.4 Features perspective*/
+.perspective{
+	background: url(../img/bg-mb.png) no-repeat;
+	background-size: 50%;
+	height: 500px;
+	background-position: right;
+}
+/* Opinions Sections */
+
+.opinions-sections{
+	background: url(../img/transparent-bg_psd_template.png) no-repeat;
+	background-size: 100%;
+	height: 500px;
+	background-position: 
+}
+.opinions-sections h3{
+	color: #335a95;
+    font-size: 15px;
+    font-weight: medium;
+    text-align: justify;
+    padding-bottom: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+.opinions-sections span {
+    color: #172c4b;
+    font-size: 15px;
+
+   
+}
+.opinions-sections .fa {
+    color: #172c4b;
+    font-size: 10px;
+   padding-left: 10px;
+
+}
+
+/* 6. Download App */
+
+.Download-sections h2{
+	color: #fff;
+    font-size: 20px;
+    font-weight: medium;
+    text-align: justify;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Download-sections p{
+	color: #505e71;
+    font-size: 15px;
+    font-weight: medium;
+    text-align: justify;
+   
+    text-align: center;
+    width: 60%;
+    width: 80%;
+    padding-left: 200px;
+}
+.btn-Download{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	font-size: 12px;
+	line-height: 1.5;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out;
+	background: transparent;
+	border-radius: 50px;
+	border: 2px solid #1c447a;
+	padding: 4px 5px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.btn-theme{
+	margin-left: 620px;
+}
+.Middle-mb {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+/*  border bottom  */
+ .footer{
+ 	height: : 300px;
+ }
+ .border-bottom {
+    border-bottom: 1px solid #143867 !important;
+}
+ .footer p {
+    font-size: 15px;
+    text-align: right;
+    color: #14396a;
+    text-align: right;
+    text-align: right;
+    padding-top: 30px;
+}
+ .menubar ul li{
+	list-style: none;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	text-decoration: none;
+    padding-right: 10px;
+    display: inline;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+dl, ol, ul {
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-top: 30px;
+    font-size: 15px;
+}
+/* Media Query For Mobile */
+@media screen and (min-width: 320px) and (max-width: 500px){
+
+.header-content h6 {
+    text-align: justify;
+}
+.two-image {
+    max-width: 70%;
+    padding-left: 60px;
+}
+.three-image {
+    max-width: 80%;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.four-image {
+    max-width: 70%;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.features02 {
+    background-size: 100%;
+    height: 400px;
+}
+.btn-header{
+	margin-left: 100px;
+}
+.btn-theme{
+	margin-left: 100px;
+}
+.opinions-sections span {
+    font-size: 10px;
+}
+.Download-sections p {
+    text-align: justify;
+    width: 60%;
+    width: 90%;
+    padding-left: 30px;
+}
+.menubar ul li {
+    padding-top: 30px;
+    font-size: 10px;
+}
+.footer p {
+    font-size: 12px;
+}
+
+}
